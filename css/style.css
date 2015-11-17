@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
-	background:#d9e0e2;
+	background:black;
 }
 
 .produtos {
@@ -244,7 +244,7 @@ nav a:focus {
 }
 h3.tittle {
   font-size:3em;
-  color: #333;
+  color: white  ;
   font-weight: 400;
   text-align: left;
 }
@@ -344,7 +344,7 @@ i.glyphicon.glyphicon-heart {
      border: double#6B6D6F;
 }
 .service-grid h5{
-  color: #333;
+  color: white;
     font-size: 2em;
     font-weight: 400;
     margin: 0.5em 0 0 0;
@@ -392,7 +392,7 @@ div#class p {
 .date-box span.on_date {
     font-size:1em;
     color: #444;
-    background:#D9E0E2;
+    background:black;
     text-transform: uppercase;
     padding: 58px 35px 15px 23px;
    width: 371px;
@@ -422,7 +422,7 @@ span.on_date.title_shop h6 {
     bottom:130px;
     left: 0;
     width: 290px;
-    border-right: 3px solid #d9e0e2;
+    border-right: 3px solid black;
 }
 .blog-text p {
     color: #fff;
@@ -546,7 +546,7 @@ p.form-submit {
     width: 26%;
 }
 #commentform input[type="submit"]:hover{
- background:#D9E0E2;
+ background:black;
  color:#34353a;
 }
 span.m_14 {
@@ -593,13 +593,13 @@ ul.list {
     margin-top: 1em;
 }
 h5.m_26 a:hover{
-  background:#D9E0E2;
+  background:black;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
-  color:#34353a;
+  color:white;
 }
 .single-us input[type="text"],.leave textarea,.leave input[type="submit"]{
 	font-size: 1em;
@@ -682,7 +682,7 @@ label {
 }
 .contact-form input[type="text"], .contact-form textarea {
     width: 100%;
-    border: 1px solid #D9E0E2;
+    border: 1px solid black;
     outline: none;
     background: none;
     padding: 15px 18px;
@@ -701,7 +701,7 @@ label {
   outline: none;
     padding: 0.7em 0.7em;
     color: #333;
-    background: #D9E0E2;
+    background: black;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 0.95em;
@@ -742,7 +742,7 @@ label {
 	margin-top: -200px;
 }
 .se-slope:nth-child(even){
-	  background:#d9e0e2;
+	  background:black;
 	-webkit-transform: rotate(-5deg);
 	-moz-transform: rotate(-5deg);
 	-o-transform: rotate(-5deg);
@@ -765,7 +765,7 @@ label {
 	-o-transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
 	transform: rotate(-5deg);
-	color:#d9e0e2;
+	color:black;
 	padding: 130px 100px 250px 100px;
 }
 
@@ -775,7 +775,7 @@ label {
 	-o-transform: rotate(5deg);
 	-ms-transform: rotate(5deg);
 	transform: rotate(5deg);
-	color:#a6abaf;
+	color:white;
 	    padding: 103px 100px 200px 103px;
 }
 .se-slope:nth-child(even) .se-content.lost{
@@ -784,7 +784,7 @@ label {
     -o-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
-    color: #a6abaf;
+    color: white;
     padding: 103px 100px 10px 103px;
 }
 /*--footer--*/
@@ -1259,8 +1259,9 @@ p.codrops-demos a.current-demo:hover{
 
 }
 .equipe {
-
-    color: #000000;
+    font-size: 15px;
+    padding-bottom: 50px;
+    color: #333;
 }
 @media(max-width:1366px){
 	.service-grid h5 {
@@ -1428,7 +1429,7 @@ p.codrops-demos a.current-demo:hover{
 		-o-transform: rotate(-5deg);
 		-ms-transform: rotate(-5deg);
 		transform: rotate(-5deg);
-		color: #d9e0e2;
+		color: black;
 		padding: 130px 100px 150px 100px;
 	}
 	.wel-text p {
@@ -1442,7 +1443,7 @@ p.codrops-demos a.current-demo:hover{
 		-o-transform: rotate(5deg);
 		-ms-transform: rotate(5deg);
 		transform: rotate(5deg);
-		color: #a6abaf;
+		color: white;
 		padding: 75px 100px 150px 103px;
 	}
 	.bottom-in {
@@ -1912,9 +1913,10 @@ p.codrops-demos a.current-demo:hover{
 		-o-transform: rotate(-5deg);
 		-ms-transform: rotate(-5deg);
 		transform: rotate(-5deg);
-		color: #d9e0e2;
+		color: black;
 		padding: 40px 100px 100px 100px;
 	}
+
 	.article-post {
 		width: 82%;
 	}
@@ -2030,7 +2032,7 @@ p.codrops-demos a.current-demo:hover{
 	.date-box.two span.on_date.title_shop.two {
 		font-size: 1em;
 		color: #444;
-		background: #D9E0E2;
+		background:black;
 		text-transform: uppercase;
 		padding: 58px 57px 15px 23px;
 		width: 400px;
@@ -2090,7 +2092,7 @@ p.codrops-demos a.current-demo:hover{
     -o-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
-    color: #d9e0e2;
+    color: black;
     padding: 98px 100px 100px 100px;
 	}
 	h3.tittle.wat {
@@ -2162,7 +2164,7 @@ p.codrops-demos a.current-demo:hover{
     -o-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
-    color: #a6abaf;
+    color: white;
     padding: 80px 100px 10px 103px;
 	}
 	.footer-grid p, .footer-grid a h5 {
@@ -2170,7 +2172,7 @@ p.codrops-demos a.current-demo:hover{
 		}
 		.se-content p {
 		line-height: 1.8em;
-	}
+    }
 	.article-post.two {
 		width: 93%;
 	}
@@ -2225,7 +2227,7 @@ p.codrops-demos a.current-demo:hover{
     -o-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
-    color: #d9e0e2;
+    color: black;
     padding: 49px 100px 100px 100px;
 }
 }
