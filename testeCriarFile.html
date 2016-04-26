@@ -1,0 +1,22 @@
+<hmtl>
+
+    <head>
+
+    <script>
+        function download(text, name, type) {
+  var a = document.getElementById("a");
+  var file = new Blob([text], {type: type});
+  a.href = URL.createObjectURL(file);
+  a.download = name;
+}
+
+        </script>
+
+    </head>
+<body>
+
+    <a href="" id="a">click here to download your file</a>
+<button onclick="download('file text', 'myfilename.txt', 'text/plain')">Create file</button>
+    </body>
+
+</hmtl>
